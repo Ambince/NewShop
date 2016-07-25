@@ -1,5 +1,6 @@
 package com.example.amence_a.newshop;
 
+import android.content.Intent;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
@@ -8,9 +9,12 @@ import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+
+import com.example.amence_a.newshop.util.PrefUtil;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,6 +26,7 @@ public class GuideActivity extends AppCompatActivity {
     private LinearLayout mLinearLayoutPoint;
     private int positionWidth;
     private View mPointRed;
+    private Button mStartBut;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +39,14 @@ public class GuideActivity extends AppCompatActivity {
         mViewPager = (ViewPager) findViewById(R.id.myViewPager);
         mLinearLayoutPoint = (LinearLayout) findViewById(R.id.ll_point_group);
         mPointRed = findViewById(R.id.view_red_point);
+        mStartBut = (Button) findViewById(R.id.btn_start);
+        mStartBut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(GuideActivity.this, MainActivity.class));
+                finish();
+            }
+        });
         //定义显示数据
         for (int i = 0; i < mImageViews.length; i++) {
             ImageView mImageView = new ImageView(this);
@@ -120,6 +133,14 @@ public class GuideActivity extends AppCompatActivity {
 
         @Override
         public void onPageSelected(int position) {
+            PrefUtil.setBoolean(GuideActivity.this, "is_show_guide", false);
+            //如果是最后一张则跳转主页面
+            if (position == mImageViews.length - 1) {
+                //使按钮可见
+                mStartBut.setVisibility(View.VISIBLE);
+            } else {
+                mStartBut.setVisibility(View.INVISIBLE);
+            }
 
         }
 

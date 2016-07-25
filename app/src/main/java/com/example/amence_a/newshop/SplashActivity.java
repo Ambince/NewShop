@@ -11,6 +11,8 @@ import android.view.animation.RotateAnimation;
 import android.view.animation.ScaleAnimation;
 import android.widget.ImageView;
 
+import com.example.amence_a.newshop.util.PrefUtil;
+
 public class SplashActivity extends AppCompatActivity {
     private ImageView mImageView;
 
@@ -54,8 +56,8 @@ public class SplashActivity extends AppCompatActivity {
 
             @Override
             public void onAnimationEnd(Animation animation) {
-                startActivity(new Intent(SplashActivity.this, GuideActivity.class));
-                finish();
+
+                showGuide();
 
 
             }
@@ -73,6 +75,19 @@ public class SplashActivity extends AppCompatActivity {
 
         mImageView.setAnimation(set);
 
+
+    }
+
+    private void showGuide() {
+        boolean isShowGuide = PrefUtil.getBoolean(SplashActivity.this, "is_show_guide");
+        Log.v("Amence", "isShowGuide=" + isShowGuide);
+        if (isShowGuide) {
+            startActivity(new Intent(SplashActivity.this, GuideActivity.class));
+            finish();
+        } else {
+            startActivity(new Intent(SplashActivity.this, MainActivity.class));
+            finish();
+        }
 
     }
 
