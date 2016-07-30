@@ -51,7 +51,6 @@ public class SplashActivity extends AppCompatActivity {
         set.setAnimationListener(new Animation.AnimationListener() {
             @Override
             public void onAnimationStart(Animation animation) {
-                Log.v("Amence", "onAnimationStart");
 
             }
 
@@ -66,7 +65,6 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void onAnimationRepeat(Animation animation) {
 
-                Log.v("Amence", "onAnimationRepeat");
 
 
             }
@@ -81,7 +79,6 @@ public class SplashActivity extends AppCompatActivity {
 
     private void showGuide() {
         boolean isShowGuide = PrefUtil.getBoolean(SplashActivity.this, "is_show_guide");
-        Log.v("Amence", "isShowGuide=" + isShowGuide);
         if (isShowGuide) {
             startActivity(new Intent(SplashActivity.this, GuideActivity.class));
             finish();

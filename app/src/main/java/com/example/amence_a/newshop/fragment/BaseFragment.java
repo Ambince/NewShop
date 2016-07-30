@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 
 /**
  * Created by Amence_A on 2016/7/26.
+ * Fragment基类
  */
 public abstract class BaseFragment extends Fragment {
 
@@ -21,11 +22,8 @@ public abstract class BaseFragment extends Fragment {
         mActivity = getActivity();
     }
 
-    @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-
-
         return init();
     }
 
