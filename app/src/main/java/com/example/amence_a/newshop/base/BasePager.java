@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 import com.example.amence_a.newshop.R;
 import com.example.amence_a.newshop.activity.MainActivity;
+import com.example.amence_a.newshop.util.SlidingUtil;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 
 /**
@@ -34,6 +35,13 @@ public class BasePager {
         mTextView = (TextView) mRootView.findViewById(R.id.tv_title);
         mFrameLayout = (FrameLayout) mRootView.findViewById(R.id.fl_content);
         imageButton = (ImageButton) mRootView.findViewById(R.id.btn_menu);
+        imageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                SlidingUtil.toggleSlidingMenu(mActivity);
+
+            }
+        });
     }
 
     public void setSlidingMenuEnable(boolean enable) {

@@ -19,7 +19,6 @@ public class HomePager extends BasePager {
 
     @Override
     public void initData() {
-        Log.v("Amence", "主页");
         setSlidingMenuEnable(false);
         imageButton.setVisibility(View.GONE);
         mTextView.setText("主页");

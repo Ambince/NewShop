@@ -90,6 +90,15 @@ public class ContentFragment extends BaseFragment {
 
     }
 
+    /**
+     * 获取新闻中心页面
+     *
+     * @return
+     */
+    public NewsCenterPager getNewsCenterPager() {
+        return (NewsCenterPager) basePagers.get(1);
+    }
+
     class ContentAdapter extends PagerAdapter {
 
         @Override
