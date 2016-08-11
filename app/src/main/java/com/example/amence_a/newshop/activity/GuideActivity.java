@@ -16,6 +16,7 @@ import android.widget.RelativeLayout;
 
 import com.example.amence_a.newshop.R;
 import com.example.amence_a.newshop.util.PrefUtil;
+import com.example.amence_a.newshop.util.util;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -59,7 +60,7 @@ public class GuideActivity extends AppCompatActivity {
             View view = new View(this);
             view.setBackgroundResource(R.drawable.shape_point_gray);
             //设置小圆点的布局属性
-            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(20, 20);
+            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(util.dp2px(20,GuideActivity.this), util.dp2px(20,GuideActivity.this));
             if (i > 0) {
                 params.leftMargin = 10;
             }
@@ -121,11 +122,8 @@ public class GuideActivity extends AppCompatActivity {
          */
         @Override
         public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-            Log.v("Amence", "onPageScrolled");
             //设置小圆点的边距
             int len = (int) (positionWidth * positionOffset + position * positionWidth);
-            Log.v("Amence", "len:" + len);
-
             RelativeLayout.LayoutParams params = (RelativeLayout.LayoutParams) mPointRed.getLayoutParams();
             params.leftMargin = len;
             mPointRed.setLayoutParams(params);

@@ -2,5 +2,9 @@
     {
         "merged": "F:\\git-clone\\NewShop\\sliding_menu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\slidingmenumain.xml",
         "source": "F:\\git-clone\\NewShop\\sliding_menu\\build\\intermediates\\bundles\\debug\\res\\layout\\slidingmenumain.xml"
+    },
+    {
+        "merged": "D:\\git-clone\\NewShop-master\\sliding_menu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\slidingmenumain.xml",
+        "source": "D:\\git-clone\\NewShop-master\\sliding_menu\\build\\intermediates\\bundles\\debug\\res\\layout\\slidingmenumain.xml"
     }
 ]

@@ -63,16 +63,6 @@ public class NewsCenterPager extends BasePager {
                     }
 
                 });
-
-
-
-
-
-
-
-
-
-
     }
 
     private void parseData(String result) {

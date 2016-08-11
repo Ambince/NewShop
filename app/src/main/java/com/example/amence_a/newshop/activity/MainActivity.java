@@ -10,6 +10,7 @@ import android.view.WindowManager;
 import com.example.amence_a.newshop.R;
 import com.example.amence_a.newshop.fragment.ContentFragment;
 import com.example.amence_a.newshop.fragment.LeftMenuFragment;
+import com.example.amence_a.newshop.util.util;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 import com.jeremyfeinstein.slidingmenu.lib.app.SlidingFragmentActivity;
 
@@ -28,13 +29,15 @@ public class MainActivity extends SlidingFragmentActivity {
         setBehindContentView(R.layout.left_menu);// 设置侧边栏
         SlidingMenu slidingMenu = getSlidingMenu();// 获取侧边栏对象
         slidingMenu.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);// 设置全屏触摸
-        slidingMenu.setBehindOffset(400);// 设置预留屏幕的宽度
+        int systemWith = util.getSystemWidth(MainActivity.this);
+        slidingMenu.setBehindOffset(systemWith / 3);// 设置预留屏幕的宽度
         stepFragment();
     }
 
     public void stepFragment() {
         FragmentManager manager = getSupportFragmentManager();
         FragmentTransaction transaction = manager.beginTransaction();
+        //放进布局
         transaction.replace(R.id.rl_left_menu, new LeftMenuFragment(), FRAGMENT_MENU);
         transaction.replace(R.id.rl_fragment_content, new ContentFragment(), FRAGMENT_CONTENT);
         transaction.commit();

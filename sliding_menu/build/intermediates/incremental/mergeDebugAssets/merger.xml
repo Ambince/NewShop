@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="F:\git-clone\NewShop\sliding_menu\assets"/><source path="F:\git-clone\NewShop\sliding_menu\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="F:\git-clone\NewShop\sliding_menu\src\debug\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="D:\git-clone\NewShop-master\sliding_menu\assets"/><source path="D:\git-clone\NewShop-master\sliding_menu\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\git-clone\NewShop-master\sliding_menu\src\debug\assets"/></dataSet></merger>
