@@ -1,19 +1,31 @@
 [
     {
-        "merged": "D:\\git-clone\\NewShop-master\\viewPagerIndicator\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\vpi__tab_unselected_focused_holo.9.png",
-        "source": "D:\\git-clone\\NewShop-master\\viewPagerIndicator\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\vpi__tab_unselected_focused_holo.9.png"
-    },
-    {
         "merged": "F:\\git-clone\\NewShop\\viewPagerIndicator\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\vpi__tab_unselected_holo.9.png",
         "source": "F:\\git-clone\\NewShop\\viewPagerIndicator\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\vpi__tab_unselected_holo.9.png"
+    },
+    {
+        "merged": "D:\\git-clone\\NewShop\\NewShop\\viewPagerIndicator\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\vpi__tab_selected_holo.9.png",
+        "source": "D:\\git-clone\\NewShop\\NewShop\\viewPagerIndicator\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\vpi__tab_selected_holo.9.png"
+    },
+    {
+        "merged": "D:\\git-clone\\NewShop-master\\viewPagerIndicator\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\vpi__tab_unselected_focused_holo.9.png",
+        "source": "D:\\git-clone\\NewShop-master\\viewPagerIndicator\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\vpi__tab_unselected_focused_holo.9.png"
     },
     {
         "merged": "F:\\git-clone\\NewShop\\viewPagerIndicator\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\news_tab_item_bg_select.9.png",
         "source": "F:\\git-clone\\NewShop\\viewPagerIndicator\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\news_tab_item_bg_select.9.png"
     },
     {
+        "merged": "D:\\git-clone\\NewShop\\NewShop\\viewPagerIndicator\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\vpi__tab_unselected_holo.9.png",
+        "source": "D:\\git-clone\\NewShop\\NewShop\\viewPagerIndicator\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\vpi__tab_unselected_holo.9.png"
+    },
+    {
         "merged": "D:\\git-clone\\NewShop-master\\viewPagerIndicator\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\vpi__tab_unselected_pressed_holo.9.png",
         "source": "D:\\git-clone\\NewShop-master\\viewPagerIndicator\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\vpi__tab_unselected_pressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\git-clone\\NewShop\\NewShop\\viewPagerIndicator\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\news_tab_item_bg_select.9.png",
+        "source": "D:\\git-clone\\NewShop\\NewShop\\viewPagerIndicator\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\news_tab_item_bg_select.9.png"
     },
     {
         "merged": "F:\\git-clone\\NewShop\\viewPagerIndicator\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\vpi__tab_selected_holo.9.png",
@@ -28,6 +40,10 @@
         "source": "F:\\git-clone\\NewShop\\viewPagerIndicator\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\vpi__tab_unselected_focused_holo.9.png"
     },
     {
+        "merged": "D:\\git-clone\\NewShop\\NewShop\\viewPagerIndicator\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\vpi__tab_selected_focused_holo.9.png",
+        "source": "D:\\git-clone\\NewShop\\NewShop\\viewPagerIndicator\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\vpi__tab_selected_focused_holo.9.png"
+    },
+    {
         "merged": "D:\\git-clone\\NewShop-master\\viewPagerIndicator\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\vpi__tab_selected_holo.9.png",
         "source": "D:\\git-clone\\NewShop-master\\viewPagerIndicator\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\vpi__tab_selected_holo.9.png"
     },
@@ -36,12 +52,28 @@
         "source": "D:\\git-clone\\NewShop-master\\viewPagerIndicator\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\news_tab_item_bg_select.9.png"
     },
     {
-        "merged": "D:\\git-clone\\NewShop-master\\viewPagerIndicator\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\vpi__tab_selected_pressed_holo.9.png",
-        "source": "D:\\git-clone\\NewShop-master\\viewPagerIndicator\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\vpi__tab_selected_pressed_holo.9.png"
+        "merged": "D:\\git-clone\\NewShop\\NewShop\\viewPagerIndicator\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\vpi__tab_selected_pressed_holo.9.png",
+        "source": "D:\\git-clone\\NewShop\\NewShop\\viewPagerIndicator\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\vpi__tab_selected_pressed_holo.9.png"
     },
     {
         "merged": "F:\\git-clone\\NewShop\\viewPagerIndicator\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\vpi__tab_selected_focused_holo.9.png",
         "source": "F:\\git-clone\\NewShop\\viewPagerIndicator\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\vpi__tab_selected_focused_holo.9.png"
+    },
+    {
+        "merged": "D:\\git-clone\\NewShop-master\\viewPagerIndicator\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\vpi__tab_selected_pressed_holo.9.png",
+        "source": "D:\\git-clone\\NewShop-master\\viewPagerIndicator\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\vpi__tab_selected_pressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\git-clone\\NewShop\\NewShop\\viewPagerIndicator\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\vpi__tab_unselected_pressed_holo.9.png",
+        "source": "D:\\git-clone\\NewShop\\NewShop\\viewPagerIndicator\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\vpi__tab_unselected_pressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\git-clone\\NewShop-master\\viewPagerIndicator\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\vpi__tab_selected_focused_holo.9.png",
+        "source": "D:\\git-clone\\NewShop-master\\viewPagerIndicator\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\vpi__tab_selected_focused_holo.9.png"
+    },
+    {
+        "merged": "D:\\git-clone\\NewShop\\NewShop\\viewPagerIndicator\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\vpi__tab_unselected_focused_holo.9.png",
+        "source": "D:\\git-clone\\NewShop\\NewShop\\viewPagerIndicator\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\vpi__tab_unselected_focused_holo.9.png"
     },
     {
         "merged": "D:\\git-clone\\NewShop-master\\viewPagerIndicator\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\vpi__tab_unselected_holo.9.png",
@@ -50,9 +82,5 @@
     {
         "merged": "F:\\git-clone\\NewShop\\viewPagerIndicator\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\vpi__tab_selected_pressed_holo.9.png",
         "source": "F:\\git-clone\\NewShop\\viewPagerIndicator\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\vpi__tab_selected_pressed_holo.9.png"
-    },
-    {
-        "merged": "D:\\git-clone\\NewShop-master\\viewPagerIndicator\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\vpi__tab_selected_focused_holo.9.png",
-        "source": "D:\\git-clone\\NewShop-master\\viewPagerIndicator\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\vpi__tab_selected_focused_holo.9.png"
     }
 ]
